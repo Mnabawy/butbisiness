@@ -1,0 +1,74 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-transform: capitalize;
+}
+
+.carousel_section {
+  background-color: #333b56;
+  background-size: cover;
+  background-attachment: inherit;
+}
+
+.arrow_button {
+  border: 1px solid lightgray;
+  border-radius: 200px;
+  padding: 0;
+  background: gray;
+  opacity: 1;
+  width: 30px;
+  height: 30px;
+  top: 45%;
+  bottom: 45%;
+  z-index: 1;
+}
+
+.services_images {
+  width: 100%;
+}
+
+footer {
+  background: url("/img/header-footer.png");
+  padding-top: 30px;
+}
+
+footer ul {
+  list-style-type: none;
+}
+
+footer a {
+  color: white;
+}
+
+.product1_content {
+  background: url("/img/content.png");
+}
+
+.product1_content p {
+  font-size: 16px;
+}
+
+.all_products_content {
+  padding-top: 50px;
+}
+
+.border-radius {
+  border-radius: 100%;
+  text-align: center;
+  width: 80px;
+  height: 80px;
+}
+
+.search_post input {
+  border-right: none;
+  border-left: 1px solid lightgray;
+  border-radius: 0px;
+  width: 200px;
+}
+
+.search_post button {
+  border-radius: 0;
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */

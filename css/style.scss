@@ -1,0 +1,90 @@
+body,html{
+  margin:0;
+  padding: 0;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+text-transform: capitalize;
+
+
+
+}
+
+
+//main page
+.carousel_section{ 
+  background-color: #333b56;
+  background-size: cover;
+  background-attachment: inherit;
+}
+    .arrow_button{
+     border: 1px solid lightgray; 
+     border-radius: 200px;
+     padding: 0;
+     background: gray;
+     opacity: 1;
+     width: 30px;
+     height: 30px;
+     top: 45%;
+     
+     bottom: 45%;
+     z-index: 1;
+
+     
+    }
+
+//services
+.services_images{
+  width: 100%;
+}
+
+footer{
+  background: url('/img/header-footer.png');
+  padding-top: 30px;
+
+  ul{
+    list-style-type: none;
+  }
+  a{
+  color: white;
+  }
+}
+
+//product1_page,product2_page,product3_page
+.product1_content{
+background: url('/img/content.png');
+p{
+  font-size: 16px;
+}
+}
+
+//all products page
+.all_products_content{
+  padding-top: 50px;
+  
+}
+
+//events page
+
+.border-radius{
+  border-radius: 100%;
+  text-align: center;
+  width: 80px;
+  height: 80px;
+  
+
+}
+
+
+//blog page style , post page form
+.search_post{
+  input{
+border-right: none;  
+border-left: 1px solid lightgray;
+border-radius: 0px;  
+width: 200px;
+
+  }
+  button{ 
+border-radius: 0;
+    cursor: pointer;
+  }
+}
